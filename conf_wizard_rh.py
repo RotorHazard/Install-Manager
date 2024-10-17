@@ -119,6 +119,14 @@ If you want to use value given as default, just hit 'Enter'.
             rh_config['LED']['LED_COUNT'] = int(led_amount)
 
             while True:
+                led_rows_amount = input("\nHow many LED rows will you use in your system?\t\t\t")
+                if led_rows_amount.isdigit():
+                    break
+                else:
+                    print("\nPlease enter a valid selection")
+            rh_config['LED']['LED_ROWS'] = int(led_rows_amount)
+
+            while True:
                 led_data_pin_nr = input("\nWhich GPIO pin is connected to your LEDs data pin? [default: 10]\t")
                 led_pins_allowed = ['10', '12', '13', '18', '19', '21', '31', '38', '40', '41', '45', '52', '53']
                 if not led_data_pin_nr:
@@ -228,6 +236,7 @@ If you want to use value given as default, just hit 'Enter'.
 
         if not led_present_flag:
             rh_config['LED']['LED_COUNT'] = 0
+            rh_config['LED']['LED_ROWS'] = 0
             rh_config['LED']['LED_GPIO'] = 10
             rh_config['LED']['LED_INVERT'] = False
             rh_config['LED']['LED_CHANNEL'] = 0
@@ -359,6 +368,7 @@ If you want to use value given as default, just hit 'Enter'.
         Admin password:     {rh_config['GENERAL']['ADMIN_PASSWORD']}
         RotorHazard port:   {rh_config['GENERAL']['HTTP_PORT']}
         LED amount:         {rh_config['LED']['LED_COUNT']}
+        LED rows:           {rh_config['LED']['LED_ROWS']}
         LED gpio:           {rh_config['LED']['LED_GPIO']}
         LED inverted:       {rh_config['LED']['LED_INVERT']}
         LED channel:        {rh_config['LED']['LED_CHANNEL']}
