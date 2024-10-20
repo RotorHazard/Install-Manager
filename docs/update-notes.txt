@@ -5,6 +5,9 @@
         UPDATE NOTES:
         ^^^^^^^^^^^^
 
+6i.411.35
+1. LED rows support added in RotorHazard config section
+
 6h1.411.35
 1. RotorHazard 4.2.0 (beta release) installation and update support added. 
 

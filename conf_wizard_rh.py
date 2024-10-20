@@ -119,7 +119,7 @@ If you want to use value given as default, just hit 'Enter'.
             rh_config['LED']['LED_COUNT'] = int(led_amount)
 
             while True:
-                led_rows_amount = input("\nHow many LED rows will you use in your system?\t\t\t")
+                led_rows_amount = input("\nHow many LED rows will you use in your system?\t\t\t\t")
                 if led_rows_amount.isdigit():
                     break
                 else:
