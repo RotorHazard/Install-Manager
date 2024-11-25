@@ -5,14 +5,18 @@
         UPDATE NOTES:
         ^^^^^^^^^^^^
 
+6i3.411.35
+1. RotorHazard 4.2.0-beta.3 release installation and update support added.
+2. Update notes cleanup
+
 6i2.411.35
-1. RotorHazard 4.2.0 (beta release) installation and update support added.
+1. RotorHazard 4.2.0-beta.2 release installation and update support added.
 
 6i.411.35
 1. LED rows support added in RotorHazard config section
 
 6h1.411.35
-1. RotorHazard 4.2.0 (beta release) installation and update support added. 
+1. RotorHazard 4.2.0-beta.1 release installation and update support added.
 
 6h.411.35
 1. RotorHazard 4.1.1 (stable release) installation and update support added

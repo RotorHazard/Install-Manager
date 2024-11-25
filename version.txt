@@ -1,6 +1,6 @@
-6i2.411.35
+6i3.411.35
 
-4.2.0-beta.2
+4.2.0-beta.3
 
 First line - version of this program - it has nothing to do with the RH version.
 First number refers to last stable RH version that can be installed using particular release.
