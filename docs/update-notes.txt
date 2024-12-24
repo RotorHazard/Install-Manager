@@ -5,6 +5,9 @@
         UPDATE NOTES:
         ^^^^^^^^^^^^
 
+6j.420.35
+1. RotorHazard 4.2.0 (stable release) installation and update support added.
+
 6i3.411.35
 1. RotorHazard 4.2.0-beta.3 release installation and update support added.
 2. Update notes cleanup
